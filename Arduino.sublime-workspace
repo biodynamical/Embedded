@@ -1,0 +1,1438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"B",
+				"Brake() const	void"
+			],
+			[
+				"loo",
+				"loopRefTime	unsigned long"
+			],
+			[
+				"pr",
+				"println(char)	size_t"
+			],
+			[
+				"p",
+				"print(long)	size_t"
+			],
+			[
+				"pri",
+				"print(char)	size_t"
+			],
+			[
+				"br",
+				"Brake() const	void"
+			],
+			[
+				"delau",
+				"delay(unsigned long)	void"
+			],
+			[
+				"HT",
+				"HTLogger"
+			],
+			[
+				"Create",
+				"CreateAndConnectServer(const CLString &port)	bool"
+			],
+			[
+				"IOXm",
+				"IOXMLNode	class"
+			],
+			[
+				"uuid",
+				"uuidStr	CLString"
+			],
+			[
+				"Get",
+				"GetAsString() const	CLString"
+			],
+			[
+				"IOXml",
+				"IOXMLReader	class"
+			],
+			[
+				"is",
+				"IsConnected() const	bool"
+			],
+			[
+				"get",
+				"GetFirstChild()	IOXMLNode::Ptr"
+			],
+			[
+				"Is",
+				"IsNotNull() const	bool"
+			],
+			[
+				"Guardian",
+				"GuardianDesc"
+			],
+			[
+				"IOXML",
+				"IOXMLNode	class"
+			],
+			[
+				"TCTest",
+				"TCTestManager	class"
+			],
+			[
+				"_cmd",
+				"_cmdParser	HTCmdLineParser *"
+			],
+			[
+				"IOSerial",
+				"IOSerialComm	class"
+			],
+			[
+				"CLCh",
+				"CLChecksumCRCStr	class"
+			],
+			[
+				"uint",
+				"uint32_t	typedef"
+			],
+			[
+				"In",
+				"IntToStr(long val)	const CLString &"
+			],
+			[
+				"CLS",
+				"CLString	class"
+			],
+			[
+				"TC_Test",
+				"TC_TEST_DIE(test)	macro"
+			],
+			[
+				"sens",
+				"sensorM	BPSensorManager*"
+			],
+			[
+				"F",
+				"FRONT	BPRangeSensor::Position"
+			],
+			[
+				"sen",
+				"sensorM	BPSensorManager*"
+			],
+			[
+				"unre",
+				"UnregisterSensor(BPRangeSensor *sensor)	void"
+			],
+			[
+				"un",
+				"UnregisterSensor(const CLString &name)	void"
+			],
+			[
+				"Isalread",
+				"IsAlreadyRegistered(const BPRangeSensor &sensor)	bool"
+			],
+			[
+				"Nu",
+				"NULL"
+			],
+			[
+				"CL_",
+				"CL_PRINT	macro"
+			],
+			[
+				"IOXMLNode",
+				"IOXMLNodeList	class"
+			],
+			[
+				"PMAC",
+				"PMACoreDesc"
+			],
+			[
+				"ca",
+				"cameraN_	IOXMLNode::Ptr"
+			],
+			[
+				"xml",
+				"xmlBody_	IOXMLNode::Ptr"
+			],
+			[
+				"arduinoN",
+				"arduinoN_"
+			],
+			[
+				"re",
+				"retVal	bool"
+			],
+			[
+				"XML",
+				"xmlReader_	IOXMLReader *"
+			],
+			[
+				"prit",
+				"printf	printf …"
+			],
+			[
+				"TC_TEST",
+				"TC_TEST_DIE(test)	macro"
+			],
+			[
+				"IOXMLN",
+				"IOXMLNodeList	class"
+			],
+			[
+				"RIGH",
+				"RIGHTDOWN	BPRangeSensor::Position"
+			],
+			[
+				"IR",
+				"IR20150	BPRangeSensor::Type"
+			],
+			[
+				"RIGHT",
+				"RIGHTUP	BPRangeSensor::Position"
+			],
+			[
+				"Veri",
+				"VerifyOutgoingData() const	bool"
+			],
+			[
+				"UNK",
+				"UNKNOWNTYPE	BPRangeSensor::Type"
+			],
+			[
+				"Set",
+				"SetStartPoint(int x, int y)	void"
+			],
+			[
+				"map",
+				"mapGen	MapGenerator"
+			],
+			[
+				"obs",
+				"obsC	char"
+			],
+			[
+				"Crea",
+				"CreateStartPoint()	void"
+			],
+			[
+				"Ge",
+				"GetYCoord() const	int"
+			],
+			[
+				"No",
+				"Node()	constructor"
+			],
+			[
+				"Fin",
+				"FindNeighbors(Node *currNode)	void"
+			],
+			[
+				"N",
+				"NListIterator	typedef"
+			],
+			[
+				"array",
+				"_arrayMap"
+			],
+			[
+				"_is",
+				"_isClosed	bool"
+			],
+			[
+				"Node",
+				"Node(int x, int y)	constructor"
+			],
+			[
+				"nei",
+				"neighborY	int"
+			],
+			[
+				"_",
+				"_x"
+			],
+			[
+				"_iS",
+				"_isOpen	bool"
+			],
+			[
+				"begi",
+				"begin()	iterator"
+			],
+			[
+				"f",
+				"_f	double"
+			],
+			[
+				"CLV",
+				"CLVector<class TYPE>	class"
+			],
+			[
+				"sta",
+				"startC"
+			],
+			[
+				"vS",
+				"vSizer"
+			],
+			[
+				"h",
+				"hSizer"
+			],
+			[
+				"vSi",
+				"vSizer"
+			],
+			[
+				"hsize",
+				"hSizer"
+			],
+			[
+				"vsi",
+				"vSizer"
+			],
+			[
+				"v",
+				"vSize"
+			],
+			[
+				"eva",
+				"evalNode"
+			],
+			[
+				"eval",
+				"EvaluateNode"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"env",
+				"env"
+			],
+			[
+				"st",
+				"startId"
+			],
+			[
+				"start",
+				"startP"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"open",
+				"posix_openpt(int __oflag)	int"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 22869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jean/.config/sublime-text-2/Packages/Color Scheme - Default/Athanase.tmTheme",
+			"settings":
+			{
+				"buffer_size": 9644,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/CMAKE_ARDUINO.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"dock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"templ",
+				"Create file from Template"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"clip",
+				"Clipboard History"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Show Tags"
+			],
+			[
+				"git dif",
+				"Git: Diff All"
+			],
+			[
+				"git diff to",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"git ann",
+				"Git: Toggle Annotations"
+			],
+			[
+				"git flo",
+				"Git Flow: Feature Finish"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git di",
+				"Git: Diff Staged"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"git graph",
+				"Git: Graph Current File"
+			],
+			[
+				"git d",
+				"Git: Diff Current File"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gt push",
+				"Git: Push"
+			],
+			[
+				"git comit",
+				"Git: Commit"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ppacka",
+				"Package Control: Install Package"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"git commt",
+				"Git: Commit"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"githu",
+				"GitHubinator"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"star",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"sta",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"open",
+				"SublimeGDB: Open Session View"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Open Console View"
+			],
+			[
+				"st",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"stop",
+				"SublimeGDB: Stop Debugging"
+			],
+			[
+				"gd",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"show",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"setsy",
+				"Set Syntax: C++"
+			],
+			[
+				"ardui",
+				"Set Syntax: Arduino"
+			],
+			[
+				"templa",
+				"Create file from Template"
+			],
+			[
+				"sho",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			]
+		],
+		"width": 556.0
+	},
+	"console":
+	{
+		"height": 502.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jean/Programming/BioDynamical/Arduino/src/Actuator.cpp",
+		"/home/jean/Programming/BioDynamical/Arduino/CMakeLists.txt",
+		"/home/jean/.config/sublime-text-2/Packages/Color Scheme - Default/Athanase Dark.tmTheme",
+		"/tmp/.fr-Q9xaxm/K_BotV1/motors.pde",
+		"/tmp/.fr-CiDBuQ/K_BotV1/K_BotV1.pde",
+		"/tmp/.fr-8O7VVN/K_BotV1/kalman.pde",
+		"/tmp/.fr-DhK5v7/K_BotV1/PID.pde",
+		"/tmp/.fr-KQtCw7/K_BotV1/sensors.pde",
+		"/home/jean/Programming/BioDynamical/Arduino/include/MPU6050.h",
+		"/home/jean/Programming/BioDynamical/Arduino/src/MPU6050.cpp",
+		"/tmp/.fr-EkbAnm/K_BotV1/PID.pde",
+		"/home/jean/Programming/OZDev/OZArduino/src/Main.cpp",
+		"/home/jean/Programming/BioDynamical/Arduino/include/MPU6050_6Axis_MotionApps20.h",
+		"/tmp/.fr-9ikvOO/K_BotV1/sensors.pde",
+		"/tmp/.fr-KFU0kz/K_BotV1/sensors.pde",
+		"/home/jean/Programming/BioDynamical/Arduino/include/Actuator.h",
+		"/home/jean/Programming/OZDev/OZArduino/src/L3G.cpp",
+		"/home/jean/Programming/OZDev/OZArduino/src/ImuComm.cpp",
+		"/home/jean/Programming/OZDev/OZArduino/src/DigitalComm.cpp",
+		"/home/jean/Programming/OZDev/OZArduino/src/ClawComm.cpp",
+		"/home/jean/Programming/OZDev/OZArduino/src/AnalogReader.cpp",
+		"/home/jean/Desktop/MPU6050.c",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/helper_3dmath.h",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/MPU6050.cpp",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/MPU6050.h",
+		"/home/jean/Programming/BioDynamical/Arduino/include/helper_3dmath.h",
+		"/tmp/.fr-qGFfMQ/MPU6050/MPU6050_9Axis_MotionApps41.h",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/MPU6050_6Axis_MotionApps20.h",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/MPU6050_9Axis_MotionApps41.h",
+		"/home/jean/Programming/BioDynamical/Arduino/include/I2Cdev.h",
+		"/home/jean/Programming/BioDynamical/Arduino/src/I2Cdev.cpp",
+		"/tmp/.fr-QSJr1O/arduino-1.0.4/libraries/Wire/Wire.h",
+		"/usr/share/arduino/libraries/Wire/Wire.h",
+		"/tmp/.fr-6ZE5s5/arduino-1.0.4/libraries/Wire/Wire.cpp",
+		"/tmp/.fr-S9sa6r/arduino-1.0.4/libraries/Wire/Wire.h",
+		"/home/jean/Programming/BioDynamical/Arduino/Archive/I2Cdev.h",
+		"/home/jean/Programming/BioDynamical/Arduino/src/MMA7361.cpp",
+		"/home/jean/Programming/BioDynamical/Arduino/include/MMA7361.h",
+		"/home/jean/Desktop/euneurone-master/main.cpp",
+		"/home/jean/Desktop/euneurone-master/Makefile",
+		"/home/jean/Desktop/euneurone-master/controlobject.h",
+		"/home/jean/Desktop/euneurone-master/mainform.h",
+		"/home/jean/Programming/BioDynamical/Arduino/src/main.cpp",
+		"/home/jean/Desktop/DoublePendTjeerd.eq",
+		"/home/jean/Desktop/euneurone-master/equation.h",
+		"/home/jean/Desktop/euneurone-master/formulc.h",
+		"/home/jean/Desktop/euneurone-master/dataspinner.h",
+		"/home/jean/Desktop/euneurone-master/eunvalgrnd",
+		"/home/jean/Desktop/euneurone-master/gmon.out",
+		"/home/jean/Desktop/euneurone-master/Doxyfile",
+		"/home/jean/Desktop/euneurone-master/EuNeurone.kdevelop",
+		"/home/jean/Untitled Document",
+		"/tmp/.fr-vMbXz1/K_BotV1/sensors.pde",
+		"/tmp/.fr-olEtAP/K_BotV1/kalman.pde",
+		"/tmp/.fr-MdzAGJ/K_BotV1/PID.pde",
+		"/tmp/.fr-Xywd9D/K_BotV1/kalman.pde",
+		"/tmp/.fr-1KiD70/K_BotV1/PID.pde",
+		"/tmp/.fr-3zumKn/K_BotV1/kalman.pde",
+		"/tmp/.fr-b9ZAA1/K_BotV1/PID.pde",
+		"/tmp/.fr-0Uh2mp/K_BotV1/motors.pde",
+		"/home/jean/Programming/OZDev/OZCore/src/BasicControls/BCMotionControl.cpp",
+		"/home/jean/Desktop/Untitled Document",
+		"/home/jean/Desktop/SendMail.sh",
+		"/home/jean/Programming/BioDynamical/Arduino/Arduino.sublime-project",
+		"/home/jean/Programming/BioDynamical/Arduino/include/Actuator.cpp",
+		"/home/jean/Desktop/new.c",
+		"/usr/share/arduino/hardware/arduino/cores/arduino/HardwareSerial.h",
+		"/home/jean/.config/sublime-text-2/Packages/User/CMAKE_ARDUINO.sublime-build",
+		"/home/jean/Desktop/test",
+		"/home/jean/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.h",
+		"/tmp/.fr-gluCi3/loki-0.1.7/include/loki/StrongPtr.h",
+		"/tmp/.fr-uxKqPR/loki-0.1.7/include/loki/SafeBits.h",
+		"/tmp/.fr-V6ENJS/loki-0.1.7/include/loki/ScopeGuard.h",
+		"/tmp/.fr-acfHhx/loki-0.1.7/include/loki/Singleton.h",
+		"/tmp/.fr-BwNzNU/loki-0.1.7/include/loki/Threads.h",
+		"/tmp/.fr-czRonR/loki-0.1.7/include/loki/SmartPtr.h",
+		"/tmp/.fr-RUtbKQ/loki-0.1.7/include/loki/Visitor.h",
+		"/tmp/.fr-daF8zh/loki-0.1.7/include/loki/Functor.h",
+		"/tmp/.fr-Myavzz/loki-0.1.7/src/LevelMutex.cpp",
+		"/usr/share/arduino/hardware/arduino/cores/arduino/Arduino.h",
+		"/home/jean/Desktop/AcceleroMMA7361/examples/G_Force/G_Force.ino",
+		"/home/jean/Desktop/AcceleroMMA7361/examples/RawData/RawData.ino",
+		"/home/jean/Desktop/AcceleroMMA7361/examples/Voltage/Voltage.ino",
+		"/home/jean/Desktop/test.cpp",
+		"/tmp/.fr-PmyZsm/AcceleroMMA7361/examples/RawData/RawData.ino",
+		"/usr/lib/avr/include/avr/io.h",
+		"/usr/share/arduino/hardware/arduino/cores/arduino/WString.h",
+		"/home/jean/Programming/BioDynamical/Embedded/CMakeLists.txt",
+		"/home/jean/Programming/BioDynamical/Embedded/include/I2Cdev.h",
+		"/home/jean/Programming/BioDynamical/Embedded/include/MPU6050_6Axis_MotionApps20.h",
+		"/home/jean/Programming/BioDynamical/Embedded/src/main.cpp",
+		"/home/jean/Programming/OZDev/OZArduino/include/ImuComm.h",
+		"/home/jean/Programming/OZDev/OZArduino/include/L3G.h",
+		"/home/jean/Programming/OZDev/OZArduino/include/AnalogReader.h",
+		"/home/jean/Programming/OZDev/OZArduino/include/SerialComm.h",
+		"/home/jean/Programming/BioDynamical/Embedded/src/I2Cdev.cpp",
+		"/home/jean/Programming/Guardian/src/MNEntryPoint.cpp",
+		"/home/jean/Programming/Guardian/include/MNEntryPoint.h",
+		"/home/jean/Programming/Draft/TLTCommon/Include/IONetworkComm.h",
+		"/home/jean/Programming/BioDynamical/Embedded/src/Main.cpp",
+		"/home/jean/Programming/Guardian/CMakeLists.txt",
+		"/home/jean/Programming/Draft/TLTCommon/Source/IO/IONetworkComm.cpp",
+		"/home/jean/Programming/Guardian/Guardian.sublime-project",
+		"/home/jean/.config/sublime-text-2/Packages/User/CMAKE_DEFAULT.sublime-build",
+		"/home/jean/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/jean/Programming/Guardian/support/GuardianDesc.xml",
+		"/home/jean/Programming/OZDev/OZCore/OZCoreDesc.xml",
+		"/home/jean/Programming/Vitals/src/CLSocketServer.cpp",
+		"/home/jean/Programming/Draft/Vitals/Source/CLSocket.cpp",
+		"/home/jean/Programming/Guardian/modules/FindROBBIE.cmake",
+		"/home/jean/Programming/libxml++/ChangeLog",
+		"/home/jean/Programming/libxml++/Makefile.am",
+		"/home/jean/Programming/libxml++/configure.ac",
+		"/home/jean/Programming/libxml++/autogen.sh",
+		"/home/jean/.cache/.fr-Q8ki99/changelog.Debian",
+		"/home/jean/Programming/Bin/Guardian/GuardianDesc.xml",
+		"/home/jean/.config/sublime-text-2/Packages/SublimeClang/Default.sublime-commands",
+		"/home/jean/Programming/OZDev/OZCore/CMakeLists.txt",
+		"/home/jean/Programming/OZDev/OZVirtual/CMakeLists.txt",
+		"/home/jean/Programming/Guardian/modules/FindVITALS.cmake",
+		"/home/jean/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/jean/.bashrc",
+		"/home/jean/Programming/Draft/TLTCommon/Include/IOPipeComm.h",
+		"/home/jean/Downloads/Argo (2012) [1080p]/Argo.2012.1080p.BluRay.x264.YIFY.srt",
+		"/home/jean/.config/sublime-text-2/Packages/C++/C.tmLanguage",
+		"/home/jean/.config/sublime-text-2/Packages/Color Scheme - Default/Jean.tmTheme",
+		"/home/jean/.config/sublime-text-2/Packages/Theme - Default/Widgets.stTheme"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/jean/Programming/Guardian/src",
+			"/home/jean/",
+			"/home/jean/Programming/Vitals",
+			"/home/jean/Programming/Guardian",
+			"/home/jean/Programming/OZDev",
+			"/home/jean/Programming/Robbie",
+			"/home/jean/Programming/Vitals",
+			"/home/jean/Programming/PMADev",
+			"/home/jean/Programming",
+			"/home/jean/Programming/PMADev",
+			"/home/jean/Programming/PMADev/Core",
+			"/home/jean/Vitals"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"6",
+			"1",
+			"5",
+			"8",
+			"dmpInitialize",
+			"getAcceleration",
+			"wire",
+			"wires.h",
+			"wire.h",
+			"01",
+			"rate",
+			"sleep",
+			"last_error",
+			"integrated_error",
+			"integratedErr",
+			"ttyACM0",
+			"255",
+			"motorBOff",
+			"Serial",
+			"f7",
+			"TOTO",
+			"MNEntryPoint",
+			"_cmdParser",
+			"GetInstance",
+			"accessors",
+			"Guardian",
+			"CL_MESSAGE",
+			"cmdHandler_",
+			"logger_",
+			"cmdParser_",
+			"robbieCntxHld_",
+			"instance_",
+			"VITALS",
+			"    static TCHolder*        guardianCntxHld_;\n    TCTestContext::Ptr      guardianCntx_;",
+			"PMACore",
+			"        \n",
+			"comment",
+			"getirsen",
+			"getsen",
+			"GetUSSensors",
+			"TC_TEST_FAIL",
+			"output",
+			"name",
+			"output",
+			"SensorType",
+			"Program started",
+			"TC_TEST_FAIL",
+			"Getsensornum",
+			"RegisterSensor",
+			"RANGE_LIMIT",
+			"_usSensors",
+			"_irSensors",
+			"_sensors",
+			"_subject",
+			"_instance",
+			"range",
+			"vIntput",
+			"[ ERROR ]",
+			"LoadXMLDesc",
+			"CL_CHECK_ENUM",
+			"operator==",
+			"AntaresContext",
+			"vect",
+			";\n",
+			"};\n",
+			"//=============================================================================\n//\n//  AtilaCore\n//  Copyright (C) 2012 Jean Inderchit\n//\n//  This program is free software: you can redistribute it and/or modify\n//  it under the terms of the GNU General Public License as published by\n//  the Free Software Foundation, either version 3 of the License, or\n//  (at your option) any later version.\n//\n//  This program is distributed in the hope that it will be useful,\n//  but WITHOUT ANY WARRANTY; without even the implied warranty of\n//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n//  GNU General Public License for more details.\n//\n//  You should have received a copy of the GNU General Public License\n//  along with this program.  If not, see <http://www.gnu.org/licenses/>.\n//\n//=============================================================================",
+			"_range",
+			"_memRanges",
+			"_isActive",
+			"_position",
+			"_type",
+			"_sensorName",
+			"[ Info ]",
+			"[ Warning ]",
+			"[ Error ]",
+			"_sorte",
+			"envMap",
+			"reparse_use_dirty_buffer",
+			"jean",
+			"//=============================================================================\n//\n//  Copyright(c) 2006, 2009, 2011 Martin Girard, Mathieu Larose,\n//  2012 Jean Inderchit\n//",
+			"//  Copyright(c) 2006, 2009, 2011 Martin Girard, Mathieu Larose,\n//  2012 Jean Inderchit",
+			"ncoups",
+			"round",
+			"jouer",
+			"plusOuMoins",
+			"plusMinus",
+			"xmax",
+			"xmin",
+			"currNode",
+			"startNode",
+			"endNode",
+			"CLList<Node*>",
+			"Point",
+			"const",
+			"yPos",
+			"xPos",
+			"openList",
+			"(*iter)",
+			"CLList<Node*>",
+			"compu",
+			"x",
+			"MNEntryPoint",
+			"button",
+			"maze",
+			"startP.y",
+			"startP.x",
+			"%s",
+			"%i",
+			"%s",
+			"MainWindow",
+			"(*vSize)",
+			"(*hSize)",
+			"(*vSize)",
+			"(*hSize)",
+			"vSize",
+			"hSize",
+			"vSizer",
+			"hSizer",
+			"vSize",
+			"hSize",
+			"env",
+			"zele",
+			"element",
+			"noeud",
+			"openlist",
+			"node",
+			"s_openlist",
+			"s_node"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"lastErr",
+			"integratedErr",
+			"ttyACM1",
+			"CL_INFO",
+			"_cmdHandler",
+			"_logger",
+			"_cmdParser",
+			"_robbieCntxHld",
+			"_instance",
+			"ROBBIE",
+			"Robbie library",
+			"name",
+			"output",
+			"name",
+			"SIDES_LIMIT",
+			"usSensors_",
+			"irSensors_",
+			"sensors_",
+			"subject_",
+			"instance_",
+			"r",
+			"vInput",
+			"[Error]",
+			"PMAContext",
+			"values",
+			"//=============================================================================\n//\n//  PMACore\n//  Copyright(c) 2012 Jean Inderchit All rights reserved.\n//\n//  These coded instructions, statements, and computer programs contain\n//  unpublished proprietary information written by Jean Inderchit and\n//  are protected by copyright law. They may not be disclosed\n//  to third parties or copied or duplicated in any form, in whole or\n//  in part, without the prior written consent of Jean Inderchit.\n//\n//=============================================================================",
+			"range_",
+			"memRanges_",
+			"isActive_",
+			"position_",
+			"type_",
+			"sensorName_",
+			"[Info]",
+			"[Warning]",
+			"[Error]",
+			"_map",
+			"//=============================================================================\n//\n//  Copyright(c) 2006, 2009, 2011 Martin Girard, Mathieu Larose,\n//",
+			"//  Copyright(c) 2006, 2009, 2011 Martin Girard, Mathieu Larose,\n",
+			"round",
+			"initGame",
+			"plusMinus",
+			"valMax",
+			"valMin",
+			"_currNode",
+			"_startNode",
+			"_endNode",
+			"NodeList",
+			"Node",
+			"_y",
+			"_x",
+			"openedNode",
+			"openedNode[i]",
+			"CLVector<Node*>",
+			"_x\nNode",
+			"\nNode",
+			"computeB",
+			"nMap",
+			"startP->y",
+			"startP->x",
+			"%c",
+			"%i",
+			"mainWindow",
+			"vSize",
+			"hSize",
+			"vSize",
+			"hSize",
+			"(*vSize)",
+			"(*hSize)",
+			"vSize",
+			"hSize",
+			"(*vSizer)",
+			"(*hSizer)",
+			"envMap",
+			"evalElem",
+			"node",
+			"OpenList",
+			"Node",
+			"OpenList",
+			"Node",
+			"Node\nstartC\n\n\n\n\nstartC",
+			"startC\nstartC\n\n\n\n\nstartC",
+			"empC",
+			"++x ",
+			"++y ",
+			"obsChar ",
+			"endChar ",
+			"startChar",
+			"empChar",
+			"Astar",
+			"AddElement",
+			"isBottom",
+			"isRight",
+			"isLeft",
+			"isTop",
+			"newElem",
+			"isWall",
+			"evalNode",
+			"currentNode",
+			"isPath",
+			"isFinish",
+			"isStart",
+			"isClosed",
+			"isOpen",
+			"outward_pc",
+			"address_fp",
+			"address_sp",
+			"mobile_num",
+			"course_num",
+			"outward_pc",
+			"address_fp",
+			"address_sp",
+			"mobile_num",
+			"course_num",
+			"first_name",
+			"nbrOfCourses",
+			"outward_pc",
+			"mobile_num",
+			"address_fp",
+			"address_sp",
+			" ",
+			"",
+			"sublime"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.cpp",
+					"settings":
+					{
+						"buffer_size": 22869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17030,
+								17030
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8897.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/jean/.config/sublime-text-2/Packages/Color Scheme - Default/Athanase.tmTheme",
+					"settings":
+					{
+						"buffer_size": 9644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3816,
+								3816
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2352.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 138.0
+	},
+	"output.exec":
+	{
+		"height": 490.0
+	},
+	"output.git":
+	{
+		"height": 149.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mpu",
+				"Archive/MPU6050.cpp"
+			],
+			[
+				"a",
+				"Arduino.sublime-project"
+			],
+			[
+				"",
+				"src/MNEntryPoint.cpp"
+			],
+			[
+				"cmake",
+				"CMakeLists.txt"
+			],
+			[
+				"mnentry",
+				"src/MNEntryPoint.cpp"
+			],
+			[
+				"robbi",
+				"modules/FindROBBIE.cmake"
+			],
+			[
+				"fram",
+				"include/FrameBase.h"
+			],
+			[
+				"cma",
+				"CMakeLists.txt"
+			],
+			[
+				"dcardui",
+				"src/DataControl/DCArduinoController.cpp"
+			],
+			[
+				"dcarduino",
+				"src/DataControl/DCArduinoController.cpp"
+			],
+			[
+				"crc",
+				"include/Crc.h"
+			],
+			[
+				"pma",
+				"PMACore.sublime-project"
+			],
+			[
+				"mncore",
+				"src/Main/MNCore.cpp"
+			],
+			[
+				"ioxmlnode",
+				"src/IO/IOXMLNode.cpp"
+			],
+			[
+				"bpsens",
+				"include/BPSensorManager.h"
+			],
+			[
+				"mn",
+				"src/Main/MNEntryPoint.cpp"
+			],
+			[
+				"ioxml",
+				"include/IOXMLNode.h"
+			],
+			[
+				"bpran",
+				"src/BasicPerception/BPRangeSensor.cpp"
+			],
+			[
+				"mnco",
+				"src/Main/MNCore.cpp"
+			],
+			[
+				"bpsen",
+				"include/BPSensorManager.h"
+			],
+			[
+				"bpsensor",
+				"src/BasicPerception/BPSensorManager.cpp"
+			],
+			[
+				"ioardui",
+				"src/IO/IOArduinoComm.cpp"
+			],
+			[
+				"ioarduino",
+				"src/IO/IOArduinoComm.cpp"
+			],
+			[
+				"ioseri",
+				"src/IO/IOSerialComm.cpp"
+			],
+			[
+				"mnentr",
+				"src/Main/MNEntryPoint.cpp"
+			],
+			[
+				"ionetwork",
+				"include/IONetworkComm.h"
+			],
+			[
+				"bosens",
+				"src/BasicPerception/BPSensorManager.cpp"
+			],
+			[
+				"bprange",
+				"src/BasicPerception/BPRangeSensor.cpp"
+			],
+			[
+				"frame",
+				"include/FrameBase.h"
+			],
+			[
+				"bp",
+				"src/BasicPerception/BPAbstractSensor.cpp"
+			],
+			[
+				"bprang",
+				"include/BPRangeSensor.h"
+			],
+			[
+				"bpabstract",
+				"include/BPAbstractSensor.h"
+			],
+			[
+				"dcardu",
+				"src/DataControl/DCArduinoController.cpp"
+			],
+			[
+				"ioserial",
+				"include/IOSerialComm.h"
+			],
+			[
+				"clfile",
+				"src/CLFileSystem.cpp"
+			],
+			[
+				"clpro",
+				"include/CLProcess.h"
+			],
+			[
+				"tctest",
+				"src/TCTestManager.cpp"
+			],
+			[
+				"clstrig",
+				"src/CLString.cpp"
+			],
+			[
+				"clstring",
+				"include/CLString.h"
+			],
+			[
+				"bon",
+				"bonjour a vous"
+			],
+			[
+				"al",
+				"/home/jean/Programming/Algorithm/src/Algorithm.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/jean/Programming/NaioTechnologies/Robbie/Robbie.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true
+}

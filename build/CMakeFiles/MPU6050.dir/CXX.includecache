@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/I2Cdev.h
+Arduino.h
+../include/Arduino.h
+Wire/Wire.h
+-
+ArduinoWrapper.h
+../include/ArduinoWrapper.h
+
+../include/MPU6050.h
+I2Cdev.h
+../include/I2Cdev.h
+avr/pgmspace.h
+-
+
+/home/jean/Programming/BioDynamical/Arduino/src/I2Cdev.cpp
+I2Cdev.h
+/home/jean/Programming/BioDynamical/Arduino/src/I2Cdev.h
+
+/home/jean/Programming/BioDynamical/Arduino/src/MPU6050.cpp
+MPU6050.h
+/home/jean/Programming/BioDynamical/Arduino/src/MPU6050.h
+

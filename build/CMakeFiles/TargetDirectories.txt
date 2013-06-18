@@ -1,0 +1,8 @@
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/Arduino.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/Arduino-serial.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/Arduino-size.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/Arduino-upload.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/MMA7361.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/MPU6050.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/mega2560_CORE.dir
+/home/jean/Programming/BioDynamical/Arduino/build/CMakeFiles/upload.dir

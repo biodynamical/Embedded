@@ -1,0 +1,2 @@
+/usr/bin/avr-ar cr libMPU6050.a  CMakeFiles/MPU6050.dir/src/MPU6050.cpp.obj CMakeFiles/MPU6050.dir/src/I2Cdev.cpp.obj
+/usr/bin/avr-ranlib libMPU6050.a

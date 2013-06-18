@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+491f14f7efa1e0850c9a082651274d5a CMakeFiles/Arduino-serial
+faaacef8bb2aa6f4a3dee68f6e576025 CMakeFiles/Arduino-size
+520d197846e1a3f88ba14f6b7712238d CMakeFiles/Arduino-upload
+9d9846deb8b8f4d3391198e3b4919a95 CMakeFiles/upload

@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions  -Wl,--gc-sections -lm -mmcu=atmega2560  CMakeFiles/Arduino.dir/src/MPU6050.cpp.obj CMakeFiles/Arduino.dir/src/I2Cdev.cpp.obj CMakeFiles/Arduino.dir/src/Actuator.cpp.obj CMakeFiles/Arduino.dir/src/main.cpp.obj  -o Arduino.elf  libmega2560_CORE.a -lc -lm 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/MMA7361.h
+Arduino.h
+-
+
+/home/jean/Programming/BioDynamical/Arduino/src/MMA7361.cpp
+MMA7361.h
+/home/jean/Programming/BioDynamical/Arduino/src/MMA7361.h
+

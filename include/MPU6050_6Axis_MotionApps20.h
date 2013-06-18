@@ -41,8 +41,6 @@ THE SOFTWARE.
 
 #include "MPU6050.h"
 #include <avr/pgmspace.h>
-typedef unsigned char PROGMEM prog_uchar;
-
 
 /* Source is from the InvenSense MotionApps v2 demo code. Original source is
  * unavailable, unless you happen to be amazing as decompiling binary by
@@ -88,7 +86,7 @@ typedef unsigned char PROGMEM prog_uchar;
 // this block of memory gets written to the MPU on start-up, and it seems
 // to be volatile memory, so it has to be done each time (it only takes ~1
 // second though)
-const prog_uchar dmpMemory[MPU6050_DMP_CODE_SIZE] PROGMEM =
+const PROGMEM unsigned char dmpMemory[MPU6050_DMP_CODE_SIZE] PROGMEM =
 {
     // bank 0, 256 bytes
     0xFB, 0x00, 0x00, 0x3E, 0x00, 0x0B, 0x00, 0x36, 0x00, 0x01, 0x00, 0x02, 0x00, 0x03, 0x00, 0x00,
@@ -229,7 +227,7 @@ const prog_uchar dmpMemory[MPU6050_DMP_CODE_SIZE] PROGMEM =
 };
 
 // thanks to Noah Zerkin for piecing this stuff together!
-const prog_uchar dmpConfig[MPU6050_DMP_CONFIG_SIZE] PROGMEM =
+const PROGMEM unsigned char dmpConfig[MPU6050_DMP_CONFIG_SIZE] PROGMEM =
 {
     //  BANK    OFFSET  LENGTH  [DATA]
     0x03,   0x7B,   0x03,   0x4C, 0xCD, 0x6C,         // FCFG_1 inv_set_gyro_calibration
@@ -272,7 +270,7 @@ const prog_uchar dmpConfig[MPU6050_DMP_CONFIG_SIZE] PROGMEM =
     // the FIFO output at the desired rate. Handling FIFO overflow cleanly is also a good idea.
 };
 
-const prog_uchar dmpUpdates[MPU6050_DMP_UPDATES_SIZE] PROGMEM =
+const PROGMEM unsigned char dmpUpdates[MPU6050_DMP_UPDATES_SIZE] PROGMEM =
 {
     0x01,   0xB2,   0x02,   0xFF, 0xFF,
     0x01,   0x90,   0x04,   0x09, 0x23, 0xA1, 0x35,
@@ -725,4 +723,4 @@ uint16_t MPU6050::dmpGetFIFOPacketSize()
     return dmpPacketSize;
 }
 
-#endif
+#endif /* _MPU6050_6AXIS_MOTIONAPPS20_H_ */

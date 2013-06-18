@@ -1,0 +1,2 @@
+/usr/bin/avr-ar cr libMMA7361.a  CMakeFiles/MMA7361.dir/src/MMA7361.cpp.obj
+/usr/bin/avr-ranlib libMMA7361.a

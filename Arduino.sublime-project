@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+            "folder_exclude_patterns": ["build"],
+            "file_exclude_patterns": ["*.sublime-workspace", ".gitignore"]
+		}
+	],
+   "settings":
+    {
+        "sublimeclang_options":
+        [
+            // Project include and source directories
+            "-I${folder:${project_path:Arduino.sublime-project}}/include",
+        	"-I${folder:${project_path:Arduino.sublime-project}}/src",
+
+            // Other include and source directories
+            "-I/usr/lib/avr/**",
+            "-I/usr/share/arduino/hardware/arduino/cores/arduino",
+            "-I/usr/share/arduino/hardware/tools/avr/avr/include",
+            "-I/usr/share/arduino/hardware/arduino/variants/**",
+            "-I/usr/share/arduino/libraries/**",
+
+            // Compilation flags
+            "-Wall", "-Wextra", "-Winline", "-Woverloaded-virtual", "-ansi",
+            "-std=c++0x", "-fexceptions", "-Wno-#warnings", "-Wno-attributes",
+            "-Wno-empty-body", "-Wno-unused-value", "-ferror-limit=0",
+            "-DUBRRH"
+        ]
+    }
+}

@@ -1,4 +1,4 @@
-// acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer. 
+// acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.
 // Copyright 2011-2012 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)
 // Datasheet: http://www.sparkfun.com/datasheets/Components/General/MMA7361L.pdf
 //
@@ -42,43 +42,50 @@
 #ifndef AcceleroMMA7361_h
 #define AcceleroMMA7361_h
 
-#if defined(ARDUINO) && ARDUINO >= 100
 #include <Arduino.h>
-#else
-#include <WProgram.h>
-#include <pins_arduino.h>
-#endif
 
 class AcceleroMMA7361
 {
-  public:
+public:
     AcceleroMMA7361();
+
     void begin();
-    void begin(int sleepPin, int selfTestPin, int zeroGPin, int gSelectPin, int xPin, int yPin, int zPin);
+    void begin(int sleepPin, int selfTestPin, int zeroGPin, int gSelectPin,
+               int xPin, int yPin, int zPin);
+
     int getXRaw();
     int getYRaw();
     int getZRaw();
+
     int getXVolt();
     int getYVolt();
     int getZVolt();
+
     int getXAccel();
     int getYAccel();
     int getZAccel();
-    void getAccelXYZ(int *_XAxis, int *_YAxis, int *_ZAxis);
+
+    void getAccelXYZ(int* _XAxis, int* _YAxis, int* _ZAxis);
     int getTotalVector();
+
     void setOffSets(int xOffSet, int yOffSet, int zOffSet);
-    void calibrate();                             // only to be executed when Z-axis is oriented to the ground
-// it calculates the offset values by assuming  Z = +1 G ; X and Y  = 0 G
+
+    // only to be executed when Z-axis is oriented to the ground
+    void calibrate();
+
+    // it calculates the offset values by assuming  Z = +1 G ; X and Y  = 0
     void setARefVoltage(double _refV);
     void setAveraging(int avg);
+
     int getOrientation();
-    void setSensitivity(boolean sensi);
+    void setSensitivity( boolean sensi );
+
     void sleep();
     void wake();
 
-  private:
-    int _mapMMA7361V(int value);
-    int _mapMMA7361G(int value);
+private:
+    int _mapMMA7361V( int value );
+    int _mapMMA7361G( int value );
     int _sleepPin;
     int _selfTestPin;
     int _zeroGPin;
@@ -93,4 +100,5 @@ class AcceleroMMA7361
     boolean _sleep;
     boolean _sensi;
 };
+
 #endif

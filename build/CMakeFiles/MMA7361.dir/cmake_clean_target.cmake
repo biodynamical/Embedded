@@ -1,0 +1,3 @@
+FILE(REMOVE_RECURSE
+  "libMMA7361.a"
+)

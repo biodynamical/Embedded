@@ -1,32 +1,34 @@
-// acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.
-// Copyright 2011-2012 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)
-// For more information: variable declaration, changelog,... see AcceleroMMA7361.h
+//  acceleroMMA7361.h - Library for retrieving data from the MMA7361 accelerometer.
+//  Copyright 2011-2012 Jef Neefs (neefs@gmail.com) and Jeroen Doggen (jeroendoggen@gmail.com)
+//  For more information: variable declaration, changelog,... see AcceleroMMA7361.h
 //
-// This library is free software; you can redistribute it and/or
-// modify it under the terms of the GNU Lesser General Public
-// License as published by the Free Software Foundation; either
-// version 2.1 of the License, or (at your option) any later version.
+//  This library is free software; you can redistribute it and/or
+//  modify it under the terms of the GNU Lesser General Public
+//  License as published by the Free Software Foundation; either
+//  version 2.1 of the License, or (at your option) any later version.
 //
-// This library is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-// Lesser General Public License for more details.
+//  This library is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+//  Lesser General Public License for more details.
 //
-// You should have received a copy of the GNU Lesser General Public
-// License along with this library; if not, write to the Free Software
-// Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+//  You should have received a copy of the GNU Lesser General Public
+//  License along with this library; if not, write to the Free Software
+//  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 /// acceleroMMA7361.cpp - Library for retrieving data from the MMA7361 accelerometer.
 /// For more information: variable declaration, changelog,... see AcceleroMMA7361.h
 
 #include "MMA7361.h"
 
+
 /// constructor
 AcceleroMMA7361::AcceleroMMA7361()
 {
 }
 
-/// begin function to set pins: sleepPin = 13, selfTestPin = 12, zeroGPin = 11, gSelectPin = 10, xPin = A0, yPin = A1, zPin = A2.
+/// begin function to set pins: sleepPin = 13, selfTestPin = 12, zeroGPin = 11,
+/// gSelectPin = 10, xPin = A0, yPin = A1, zPin = A2.
 /// When you use begin() with an empty parameter list, these standard values are used
 void AcceleroMMA7361::begin()
 {
@@ -42,7 +44,8 @@ void AcceleroMMA7361::begin()
 /// - int yPin: number indicating to which pin the y-axis  pin is connected to. ANALOG IN
 /// - int zPin: number indicating to which pin the z-axis  pin is connected to. ANALOG IN
 /// - int offset: array indicating the G offset on the x,y and z-axis
-/// When you use begin() without variables standard values are loaded: A0,A1,A2 as input for X,Y,Z and digital pins 13,12,11,10 for sleep, selftest, zeroG and gSelect
+/// When you use begin() without variables standard values are loaded: A0,A1,A2 as input
+/// for X,Y,Z and digital pins 13,12,11,10 for sleep, selftest, zeroG and gSelect
 void AcceleroMMA7361::begin(int sleepPin, int selfTestPin, int zeroGPin, int gSelectPin, int xPin, int yPin, int zPin)
 {
     pinMode(sleepPin, OUTPUT);
@@ -264,8 +267,8 @@ int AcceleroMMA7361::_mapMMA7361G(int value)
 /// WARNING WHEN CALIBRATED YOU HAVE TO MAKE SURE THE Z-AXIS IS PERPENDICULAR WITH THE EARTHS SURFACE
 void AcceleroMMA7361::calibrate()
 {
-    Serial.println(getOrientation());
-    Serial.print("\nCalibrating MMA7361011");
+    Serial.println( getOrientation() );
+    Serial.print( "\nCalibrating MMA7361011" );
     double var = 5000;
     double sumX = 0;
     double sumY = 0;

@@ -1,0 +1,195 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 3.8.0-13-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/2.8.10.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/2.8.10.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2909725894/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2909725894.dir/build.make CMakeFiles/cmTryCompileExec2909725894.dir/build
+make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2909725894.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec2909725894.dir/testCCompiler.c.obj   -c /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2909725894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2909725894.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -Wl,--gc-sections -lm CMakeFiles/cmTryCompileExec2909725894.dir/testCCompiler.c.obj  -o cmTryCompileExec2909725894  
+make[1]: Leaving directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3252421714/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3252421714.dir/build.make CMakeFiles/cmTryCompileExec3252421714.dir/build
+make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3252421714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3252421714.dir/link.txt --verbose=1
+/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -v CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec3252421714   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.7.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr
+Thread model: single
+gcc version 4.7.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTryCompileExec3252421714'
+ /usr/lib/gcc/avr/4.7.2/collect2 -o cmTryCompileExec3252421714 -L/usr/lib/gcc/avr/4.7.2 -L/usr/lib/gcc/avr/4.7.2/../../../avr/lib CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3252421714/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3252421714.dir/build.make CMakeFiles/cmTryCompileExec3252421714.dir/build]
+  ignore line: [make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections     -o CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3252421714]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3252421714.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -v CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj  -o cmTryCompileExec3252421714   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.7.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.7.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTryCompileExec3252421714']
+  link line: [ /usr/lib/gcc/avr/4.7.2/collect2 -o cmTryCompileExec3252421714 -L/usr/lib/gcc/avr/4.7.2 -L/usr/lib/gcc/avr/4.7.2/../../../avr/lib CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.7.2/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3252421714] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.7.2] ==> dir [/usr/lib/gcc/avr/4.7.2]
+    arg [-L/usr/lib/gcc/avr/4.7.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.7.2/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec3252421714.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.7.2] ==> [/usr/lib/gcc/avr/4.7.2]
+  collapse dir [/usr/lib/gcc/avr/4.7.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/avr/4.7.2;/usr/lib/avr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4019451576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4019451576.dir/build.make CMakeFiles/cmTryCompileExec4019451576.dir/build
+make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4019451576.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec4019451576.dir/testCXXCompiler.cxx.obj -c /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4019451576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4019451576.dir/link.txt --verbose=1
+/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -Wl,--gc-sections -lm CMakeFiles/cmTryCompileExec4019451576.dir/testCXXCompiler.cxx.obj  -o cmTryCompileExec4019451576  
+make[1]: Leaving directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2600696595/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2600696595.dir/build.make CMakeFiles/cmTryCompileExec2600696595.dir/build
+make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2600696595
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600696595.dir/link.txt --verbose=1
+/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -v CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2600696595   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.7.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr
+Thread model: single
+gcc version 4.7.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTryCompileExec2600696595'
+ /usr/lib/gcc/avr/4.7.2/collect2 -o cmTryCompileExec2600696595 -L/usr/lib/gcc/avr/4.7.2 -L/usr/lib/gcc/avr/4.7.2/../../../avr/lib CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc
+make[1]: Leaving directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2600696595/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2600696595.dir/build.make CMakeFiles/cmTryCompileExec2600696595.dir/build]
+  ignore line: [make[1]: Entering directory `/home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/jean/Programming/BioDynamical/Arduino/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions     -o CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2600696595]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600696595.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -v CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTryCompileExec2600696595   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.7.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.7.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.7.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.7.2/:/usr/lib/gcc/avr/4.7.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTryCompileExec2600696595']
+  link line: [ /usr/lib/gcc/avr/4.7.2/collect2 -o cmTryCompileExec2600696595 -L/usr/lib/gcc/avr/4.7.2 -L/usr/lib/gcc/avr/4.7.2/../../../avr/lib CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm -lgcc -lc -lgcc]
+    arg [/usr/lib/gcc/avr/4.7.2/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2600696595] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.7.2] ==> dir [/usr/lib/gcc/avr/4.7.2]
+    arg [-L/usr/lib/gcc/avr/4.7.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.7.2/../../../avr/lib]
+    arg [CMakeFiles/cmTryCompileExec2600696595.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/avr/4.7.2] ==> [/usr/lib/gcc/avr/4.7.2]
+  collapse dir [/usr/lib/gcc/avr/4.7.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.7.2;/usr/lib/avr/lib]
+
+

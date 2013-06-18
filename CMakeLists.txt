@@ -34,45 +34,48 @@ Set( SOURCE_DIR "src" )
 #
 Project( Arduino C CXX )
 
-Print_board_list()
-Print_programmer_list()
-Print_board_settings( diecimila )
+#Print_board_list()
+#Print_programmer_list()
+Print_board_settings( mega2560 )
 
 #-------------------------------------------------------------------------------
 #
 #   Default Port, when not specified
 #
-Set( ARDUINO_DEFAULT_PORT /dev/ttyACM0 )
+Set( ARDUINO_DEFAULT_PORT /dev/ttyACM1 )
+Set( ARDUINO_DEFAULT_SERIAL 9600 )
+
 
 #-------------------------------------------------------------------------------
 #
 #   Library build process
 #
-Set( I2Cdev_HDRS   ${INCLUDE_DIR}/I2Cdev.h )
-Set( I2Cdev_SRCS   ${SOURCE_DIR}/I2Cdev.cpp )
-Set( I2Cdev_BOARD  diecimila )
-Set( I2Cdev_PORT   /dev/ttyUSB0 )
+Set( MMA7361_HDRS   ${INCLUDE_DIR}/MMA7361.h )
+Set( MMA7361_SRCS   ${SOURCE_DIR}/MMA7361.cpp )
+Set( MMA7361_BOARD  mega2560 )
 
-Generate_Arduino_Library( I2Cdev )
-
+Generate_Arduino_Library( MMA7361 )
 
 #-------------------------------------------------------------------------------
 #
 #   Executable build process
 #
 Set( ${PROJECT_NAME}_HDRS
+        ${INCLUDE_DIR}/MMA7361.h
+        ${INCLUDE_DIR}/MPU6050.h
         ${INCLUDE_DIR}/I2Cdev.h
         ${INCLUDE_DIR}/helper_3dmath.h
-        ${INCLUDE_DIR}/MPU6050.h
         ${INCLUDE_DIR}/MPU6050_6Axis_MotionApps20.h
-        ${INCLUDE_DIR}/MPU6050_9Axis_MotionApps41.h )
+        ${INCLUDE_DIR}/Actuator.h
+        ${INCLUDE_DIR}/KalmanFilter.h )
 
 Set( ${PROJECT_NAME}_SRCS
-        ${SOURCE_DIR}/main.cpp
-        ${SOURCE_DIR}/MPU6050.cpp )
+        ${SOURCE_DIR}/Actuator.cpp
+        ${SOURCE_DIR}/MPU6050.cpp
+        ${SOURCE_DIR}/I2Cdev.cpp
+        ${SOURCE_DIR}/main.cpp )
 
-Set( ${PROJECT_NAME}_LIBS    I2Cdev )
-Set( ${PROJECT_NAME}_BOARD   diecimila )
-Set( ${PROJECT_NAME}_PORT    /dev/ttyUSB0 )
+Set( ${PROJECT_NAME}_LIBS    )
+Set( ${PROJECT_NAME}_BOARD   mega2560 )
 
 Generate_Arduino_Firmware( ${PROJECT_NAME} )
